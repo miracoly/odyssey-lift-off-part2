@@ -5,6 +5,7 @@
   "main": "src/index.js",
   "scripts": {
     "compile": "tsc",
+    "generate": "graphql-codegen",
     "dev": "ts-node-dev --respawn ./src/index.ts",
     "start": "npm run compile && nodemon ./dist/index.js"
   },
